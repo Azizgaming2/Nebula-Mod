@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "package": "com.gemini.aurasync.AuraSync.novamod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+    "DebugScreenOverlayMixin",
+    "EntityRenderMixin",
+    "KeyInputMixin",
+    "LevelRenderMixin",
+    "ParticleMixin"
+  ],
+  "mixins": [
+    "EntityTickMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
+

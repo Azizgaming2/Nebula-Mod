@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "novamod",
+  "version": "1.0-justnotleak",
+  "name": "NovaMod",
+  "description": "Hello İm ram Protector Protecting From Too Much RAM Usage!",
+  "authors": [
+    "AizOf"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/novamod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.gemini.aurasync.AuraSync.novamod.fabric.NovamodFabric"
+    ],
+    "client": [
+      "com.gemini.aurasync.AuraSync.novamod.fabric.client.NovamodFabricClient"
+    ]
+  },
+  "mixins": [
+    "novamod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "architectury": ">=9.2.14",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
